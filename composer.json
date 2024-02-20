@@ -28,7 +28,7 @@
             ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "repositories": {
         "packagist.org": false,
         "private-packagist": {

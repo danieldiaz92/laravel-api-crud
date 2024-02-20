@@ -2,6 +2,12 @@
     "name": "sofis/crud-generator",
     "description": "Laravel Crud Generator",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/danieldiaz92/laravel-api-crud/releases/tag/v1.0.0"
+        }
+    ],
     "authors": [
         {
             "name": "M Awais",

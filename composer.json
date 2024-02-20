@@ -2,21 +2,19 @@
     "name": "sofis/crud-generator",
     "description": "Laravel Crud Generator",
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/danieldiaz92/laravel-api-crud/releases/tag/v1.0.2"
-        }
-    ],
     "authors": [
         {
-            "name": "M Awais",
-            "email": "asargodha@gmail.com"
+            "name": "Daniel Diaz",
+            "email": "daniel.diaz@sofis.lat"
         }
     ],
     "keywords": ["laravel", "crud", "crud generator", "laravel crud generator", "laravel package"],
     "require": {
-        "laravel/framework": "^5.5|^6.20.42|^7.0|^8.0|^9.0|^10.0"
+        "laravel/framework": "^10.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     },
     "autoload": {
         "psr-4": {
@@ -30,6 +28,12 @@
             ]
         }
     },
-    "minimum-stability": "stable",
-    "prefer-stable": true
+    "minimum-stability": "dev",
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/daniel/"
+        }
+    }
 }
